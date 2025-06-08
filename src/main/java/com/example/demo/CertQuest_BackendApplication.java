@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan(basePackages = "com.example.demo.mapper")
-public class ProjectHnApplication {
+public class CertQuest_BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectHnApplication.class, args);
+		SpringApplication.run(CertQuest_BackendApplication.class, args);
 	}
 
 }
